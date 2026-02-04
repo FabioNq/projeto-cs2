@@ -11,6 +11,6 @@ verificar desempenho a cada dia de campeonato.
 
 
 💡 Próximos Passos
-[ ] adquirir mais dados durante os campeonatos de 2026 e fazer .
-[ ] Criar um Dashboard interativo usando Streamlit.
-[ ] criar um modelo de machine learning a partir do desempenho da equipe no ano de 2025 e verificar como será o desempenho da equipe em 2026.
+- [ ] Tarefa concluída [ ] adquirir mais dados durante os campeonatos de 2026 e fazer .
+- [ ] Criar um Dashboard interativo usando Streamlit.
+- [ ] criar um modelo de machine learning a partir do desempenho da equipe no ano de 2025 e verificar como será o desempenho da equipe em 2026.
