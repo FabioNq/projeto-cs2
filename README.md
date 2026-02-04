@@ -14,3 +14,4 @@ verificar desempenho a cada dia de campeonato.
 - [ ] Tarefa concluída [ ] adquirir mais dados durante os campeonatos de 2026 e fazer .
 - [ ] Criar um Dashboard interativo usando Streamlit.
 - [ ] criar um modelo de machine learning a partir do desempenho da equipe no ano de 2025 e verificar como será o desempenho da equipe em 2026.
+<img width="686" height="548" alt="Correlacao_Kills_Swing" src="https://github.com/user-attachments/assets/7623db88-f4a1-4ccb-ada1-8afc6c84a840" />
