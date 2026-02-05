@@ -100,7 +100,6 @@ def gboxplot(data,inf: str,grupo:str):
 def gcorrelacao(data,x:float ,y:float):
     """
     função responsavel por verificar a correlação entre duas variaveis.
-    
     :param data: dataframe com as variaveis disponiveis
     :param x: variavel x disponivel no dataframe informado
     :param y: variavel x disponivel no dataframe informado
