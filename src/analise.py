@@ -69,12 +69,12 @@ def graficoBarrasPartidas(inf:str):
     
     #condicional só para alterar o eixo y, caso o parametro passado seja a variavel Swing o eixo y vai começar com valor negativo caso contrario o eixo y começa de 0.
     if inf == 'Swing':
-        ax.set(ylabel='pints sold', title=f'media de {inf} por jogador', ylim=(min(dataframe[inf]*1.1),max(dataframe[inf]*1.1)))
+        ax.set(ylabel='valor', title=f'media de {inf} por jogador', ylim=(min(dataframe[inf]*1.1),max(dataframe[inf]*1.1)))
         ax.bar_label(bar_container)
         plt.show()   
           
     else:
-        ax.set(ylabel='pints sold', title=f'media de {inf} por jogador', ylim=(0,max(dataframe[inf]*1.1)))
+        ax.set(ylabel='valor', title=f'media de {inf} por jogador', ylim=(0,max(dataframe[inf]*1.1)))
         ax.bar_label(bar_container)
     
         plt.show()   
@@ -196,26 +196,26 @@ listamelhormapajogadores('Swing')
 
 #%%
 #comparativo media de kills por jogador
-graficoLinhaPorJogadores(df_analise,'Kills')
+graficoLinhaPorJogadores('Kills')
 
 #%%
 #comparativo media de mortes por jogador 
-graficoLinhaPorJogadores(df_analise,'Deaths')
+graficoLinhaPorJogadores('Deaths')
 
 #%%
 #media ADR
-graficoLinhaPorJogadores(df_analise,'ADR')
+graficoLinhaPorJogadores('ADR')
 
 #%%
 #mediana Swing
-graficoLinhaPorJogadores(df_analise,'Swing')
+graficoLinhaPorJogadores('Swing')
 
 #%%
 #media KAST
-graficoLinhaPorJogadores(df_analise,'KAST')
+graficoLinhaPorJogadores('KAST')
 
 #%%
-graficoLinhaPorJogadores(df_analise,'Rating3.0')
+graficoLinhaPorJogadores('Rating3.0')
 
 #%%
 
@@ -227,42 +227,42 @@ graficoLinhaPorJogadores(df_analise,'Rating3.0')
 gboxplot(df_analise,'Swing','mapa')
 
 #%%
-gboxplot(df_analise,'Kills')
+gboxplot(df_analise,'Kills','mapa')
 
 #%%
-gboxplot(df_analise,'Deaths')
+gboxplot(df_analise,'Deaths','mapa')
 
 
 #%%
-gboxplot(df_analise,'ADR')
+gboxplot(df_analise,'ADR','mapa')
 
 #%%
-gboxplot(df_analise,'KAST')
+gboxplot(df_analise,'KAST','mapa')
 
 #%%
-gboxplot(df_analise,'Rating3.0')
+gboxplot(df_analise,'Rating3.0','mapa')
 
 
 
 #################  GRAFICO DE BARRA ###################
 
 #%%
-graficoBarrasPartidas(df_analise,'Kills')
+graficoBarrasPartidas('Kills')
 
 #%%
-graficoBarrasPartidas(df_analise,'Deaths')
+graficoBarrasPartidas('Deaths')
 
 #%%
-graficoBarrasPartidas(df_analise,'Swing')
+graficoBarrasPartidas('Swing')
 
 #%%
-graficoBarrasPartidas(df_analise,'KAST')
+graficoBarrasPartidas('KAST')
 
 #%%
-graficoBarrasPartidas(df_analise,'ADR')
+graficoBarrasPartidas('ADR')
 
 #%%
-graficoBarrasPartidas(df_analise,'Rating3.0')
+graficoBarrasPartidas('Rating3.0')
 
 
 ############ CORRELACAO ################
