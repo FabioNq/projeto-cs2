@@ -41,6 +41,10 @@ for link in links_das_partidas_blast:
     #Selecionando o menu com o nome dos mapas  
     total_mapas = navegador.find_element(By.XPATH,'//*[@id="match-stats"]/div[2]').text
     
+    
+  
+    
+    
     #limpa os nomes do menu que não serão utilizados, como All maps e Detailed stats
     limpo = total_mapas.replace("All maps", "").replace("Detailed stats", "").strip()
     
@@ -65,6 +69,8 @@ for link in links_das_partidas_blast:
         
         data_jogo = navegador.find_element(By.XPATH, 
         '/html/body/div[3]/div[3]/div[2]/div[1]/div[2]/div[2]/div[2]/div[2]').text
+        
+        
         print(data_jogo)
         
         #cria variavel na qual guarda a pagina em html
