@@ -114,6 +114,13 @@ Realizando a analise através do grafico de barras, temos :
 <img width="565" height="435" alt="Swing por jogadores" src="https://github.com/user-attachments/assets/0bc669aa-6751-4f41-8050-067e2f3875fd" />
 
 
+### mapas que os jogadores tiveram melhor desempenho de acordo com o Swing:
+
+<img width="578" height="196" alt="melhor performace por mapa de cada jogador" src="https://github.com/user-attachments/assets/62e9630f-ffde-4e48-a761-b6e5a890a63a" />
+
+Esse dado é muito interessante pois os jogadores YEKINDAR e FalleN mesmo com -1 de diferença em Kills e Deaths ele tiveram uma contribuição para mudar o rumo da partida
+e com o KAST de bem elevado contribuindo significante bem no rumo da partida. 
+
 
 💡 Próximos Passos
 - [ ] adquirir mais dados durante os campeonatos de 2026 e fazer mais analises sobre os jogadores.
