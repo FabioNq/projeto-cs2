@@ -46,6 +46,7 @@ verificar qual o melhor mapa de cada jogador
 | Colunas | Tipo | Função | 
 | :--- | :--- | :--- |
 | **FURIA** | `string` | coluna na qual tem os nomes dos jogadores | 
+| **data_jogo** | `datetime` | coluna na qual informa a data da partida |
 | **mapa** | `string` |  coluna com a informação do mapa que foi jogado |
 | **Kills** | `int` | coluna informa o numero de inimigos abatidos do jogador |
 | **Deaths** | `int` | coluna informa o numero de mortes do jogador | 
