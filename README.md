@@ -8,7 +8,7 @@ Este projeto tem como objetivo realizar a extração via webScraping do site Hlt
 
 ## Exemplo do Funcionamento do projeto final: 
 
-https://github.com/user-attachments/assets/139062e1-3ffa-48f8-9365-dc13671c72bf
+![projeto CS2](https://github.com/user-attachments/assets/bf7da9f4-9ee6-43c1-af9a-7bf79dddba78)
 
 
 
