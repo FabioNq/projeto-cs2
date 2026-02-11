@@ -124,5 +124,12 @@ e com o KAST de bem elevado contribuindo significante bem no rumo da partida.
 
 💡 Próximos Passos
 - [ ] adquirir mais dados durante os campeonatos de 2026 e fazer mais analises sobre os jogadores.
-- [ ] Criar um Dashboard interativo usando Streamlit.
+- [X] Criar um Dashboard interativo usando Streamlit.
 - [ ] baseado na extração via WebScraping, realizar a extração de dados dos campeonatos de 2025 e realizar predições para 2026.
+
+ 📖 Referências:
+- [TeoMeWhy Streamlit](https://www.youtube.com/playlist?list=PLvlkVRRKOYFRYA40hJ_V8e_iC5Lu6YPyn)
+- [larissa.eleterio](https://medium.com/@larissa.eleterio/analisando-o-desempenho-de-um-time-de-cs-go-no-campeonato-cs-summit-f641534411e2)
+- [Michael Kitas](https://www.youtube.com/watch?v=txsdyYkvj0Y)
+
+    
