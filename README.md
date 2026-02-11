@@ -3,14 +3,6 @@
 📝 Visão Geral
 Este projeto tem como objetivo realizar a extração via webScraping do site Hltv e analisar dados de desempenho dos jogadores de Counter-Strike 2 da Furia no campeonato Blast-Bounty-season-1-2026
 
-[site do projeto](https://projetocs2.streamlit.app/)
-
-
-## Exemplo do Funcionamento do projeto final: 
-
-![projeto CS2](https://github.com/user-attachments/assets/bf7da9f4-9ee6-43c1-af9a-7bf79dddba78)
-
-
 
 ## 🛠️ Tecnologias e Dependências
 
@@ -131,6 +123,16 @@ Realizando a analise através do grafico de barras, temos :
 Esse dado é muito interessante pois os jogadores YEKINDAR e FalleN mesmo com -1 de diferença em Kills e Deaths ele tiveram uma contribuição para mudar o rumo da partida
 e com o KAST de bem elevado contribuindo significante bem no rumo da partida. 
 
+
+
+
+## Exemplo do Funcionamento do projeto final adicionando ao Streamlit: 
+
+![projeto CS2](https://github.com/user-attachments/assets/bf7da9f4-9ee6-43c1-af9a-7bf79dddba78)
+
+
+
+[site do projeto](https://projetocs2.streamlit.app/)
 
 💡 Próximos Passos
 - [ ] adquirir mais dados durante os campeonatos de 2026 e fazer mais analises sobre os jogadores.
