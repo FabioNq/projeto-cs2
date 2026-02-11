@@ -3,6 +3,9 @@
 📝 Visão Geral
 Este projeto tem como objetivo realizar a extração via webScraping do site Hltv e analisar dados de desempenho dos jogadores de Counter-Strike 2 da Furia no campeonato Blast-Bounty-season-1-2026
 
+[site do projeto](https://projetocs2.streamlit.app/)
+
+
 ## 🛠️ Tecnologias e Dependências
 
 O projeto foi desenvolvido utilizando o ecossistema Python, focando em automação de coleta de dados (Web Scraping) e análise estatística.
@@ -129,7 +132,8 @@ e com o KAST de bem elevado contribuindo significante bem no rumo da partida.
 - [ ] baseado na extração via WebScraping, realizar a extração de dados dos campeonatos de 2025 e realizar predições para 2026.
 
  📖 Referências:
-- [TeoMeWhy Streamlit](https://www.youtube.com/playlist?list=PLvlkVRRKOYFRYA40hJ_V8e_iC5Lu6YPyn)
+- [TeoMeWhy cursos](https://cursos.teomewhy.org/material_2025#cursos)
+- [documentacao Streamlit](https://docs.streamlit.io/)
 - [larissa.eleterio](https://medium.com/@larissa.eleterio/analisando-o-desempenho-de-um-time-de-cs-go-no-campeonato-cs-summit-f641534411e2)
 - [Michael Kitas](https://www.youtube.com/watch?v=txsdyYkvj0Y)
 
