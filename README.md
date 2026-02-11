@@ -6,6 +6,12 @@ Este projeto tem como objetivo realizar a extração via webScraping do site Hlt
 [site do projeto](https://projetocs2.streamlit.app/)
 
 
+## Exemplo do Funcionamento do projeto final: 
+
+https://github.com/user-attachments/assets/139062e1-3ffa-48f8-9365-dc13671c72bf
+
+
+
 ## 🛠️ Tecnologias e Dependências
 
 O projeto foi desenvolvido utilizando o ecossistema Python, focando em automação de coleta de dados (Web Scraping) e análise estatística.
