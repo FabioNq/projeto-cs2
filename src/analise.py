@@ -2,6 +2,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import os
+#%%
+os.getcwd()
 
 #%%
 df_bruto = pd.read_csv("projeto_cs2/dados/dados_Furia_2026.csv", sep=';')
@@ -61,14 +64,14 @@ def graficoBarrasPartidas(inf:str):
     """
     
     #cria dataframe recebendo df_analise com a media de cada variavel
-    dataframe=df_analise.groupby(['FURIA'])[['Kills','Deaths','Swing','ADR','KAST','Rating3.0','eK','eD']].mean().reset_index()    
+    dataframe=df_analise.groupby(['FURIA'])[['Kills','Deaths','Swing','ADR','KAST','Rating3.0','eK','eD','difF_KD']].mean().reset_index()    
     
     #cria o grafico de barra
     fig, ax = plt.subplots()
     bar_container = ax.bar(dataframe['FURIA'],dataframe[inf],color='#2ECC71') 
     
     #condicional só para alterar o eixo y, caso o parametro passado seja a variavel Swing o eixo y vai começar com valor negativo caso contrario o eixo y começa de 0.
-    if inf == 'Swing':
+    if   inf == 'Swing' or inf == 'difF_KD'  :
         ax.set(ylabel='valor', title=f'media de {inf} por jogador', ylim=(min(dataframe[inf]*1.1),max(dataframe[inf]*1.1)))
         ax.bar_label(bar_container)
         plt.show()   
@@ -148,6 +151,13 @@ df_bruto.drop(['K-D', 'eK-eD',], axis=1, inplace=True)
 #%%
 #utiliza dataframe df_analise para realização de mudanças
 df_analise = df_bruto.copy()
+
+df_analise['difF_KD'] = df_analise['Kills'] - df_analise['Deaths']
+
+
+
+#%%
+df_analise.to_csv('dado_Furia_Ajustado.csv',sep=';',index=False)
 
 
 #%%
@@ -241,6 +251,13 @@ gboxplot(df_analise,'KAST','mapa')
 #%%
 gboxplot(df_analise,'Rating3.0','mapa')
 
+#%%
+gboxplot(df_analise,'difF_KD','mapa')
+
+
+#%%
+gboxplot(df_analise,'difF_KD','FURIA')
+
 
 
 #################  GRAFICO DE BARRA ###################
@@ -263,9 +280,11 @@ graficoBarrasPartidas('ADR')
 #%%
 graficoBarrasPartidas('Rating3.0')
 
+#%%
+graficoBarrasPartidas('difF_KD')
 
 ############ CORRELACAO ################
 
 #%%
-gcorrelacao(df_analise,'Swing','Rating3.0')
+gcorrelacao(df_analise,'Swing','difF_KD')
 
