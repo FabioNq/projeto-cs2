@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 from streamlit_dynamic_filters import DynamicFilters
 
+
+
 st.set_page_config(page_title='projeto cs2',page_icon=':gun:')
 
 
@@ -19,7 +21,6 @@ st.markdown("""
 
 file_upload = st.file_uploader(label="Faça upload dos dados aqui",type=['csv'])
 
-stt1,stt2 = st.columns(2)
  
 df = pd.DataFrame()
 
@@ -28,6 +29,7 @@ if file_upload:
    df = pd.read_csv(file_upload,
    sep=';')
    df['data_jogo'] = pd.to_datetime(df['data_jogo'])
+   
    st.markdown("### métricas de desempenho dos jogadores:")
    filtro_dinamico = DynamicFilters(df, filters=['FURIA', 'mapa'],
    )
@@ -38,8 +40,6 @@ if file_upload:
 
    df_dinamico = filtro_dinamico.filter_df()
     
-  
-   
   
    kills.metric("Total Kills",df_dinamico['Kills'].sum(), border=True)
    deaths.metric("Total Deaths", df_dinamico['Deaths'].sum(), border=True)
@@ -53,9 +53,6 @@ if file_upload:
 
    chart_data = df_dinamico.pivot_table(index='data_jogo', columns='FURIA', values='Swing')
 
-
-   #chart_data = df_dinamico.groupby('data_jogo')[['Kills']].sum()
-   
    st.line_chart(chart_data)
    
    st.subheader("média de Kills Jogador")
