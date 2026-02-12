@@ -1,7 +1,7 @@
 ## 🎮 Projeto: Análise de Desempenho de Jogadores - CS2
 
 📝 Visão Geral
-Este projeto tem como objetivo realizar a extração via webScraping do site Hltv e analisar dados de desempenho dos jogadores de Counter-Strike 2 da Furia no campeonato Blast-Bounty-season-1-2026
+Este projeto tem como objetivo realizar a extração via webScraping do site Hltv e analisar dados de desempenho dos jogadores de Counter-Strike 2 da Furia no campeonato Blast-Bounty-season-1-2026 e subir o projeto para o streamlit.
 
 
 ## 🛠️ Tecnologias e Dependências
