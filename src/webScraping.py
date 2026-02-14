@@ -60,10 +60,6 @@ for link in links_das_partidas_blast:
         navegador.find_element(By.XPATH,f'//*[@id="match-stats"]/div[2]/div[1]/div[{i+2}]/div').click()
         
         
-        
-        #Data do jogo 
-        
-        
         #variavel que pega o nome do mapa para poder inserir ao dataFrame
         nome_mapa = navegador.find_element(By.XPATH,f'//*[@id="match-stats"]/div[2]/div[1]/div[{i+2}]/div').text
         
