@@ -133,6 +133,7 @@ e com o KAST de bem elevado contribuindo significante bem no rumo da partida.
 
  📖 Referências:
 - [TeoMeWhy cursos](https://cursos.teomewhy.org/material_2025#cursos)
+- [Selenium doc](https://www.selenium.dev/documentation/)
 - [documentacao Streamlit](https://docs.streamlit.io/)
 - [larissa.eleterio](https://medium.com/@larissa.eleterio/analisando-o-desempenho-de-um-time-de-cs-go-no-campeonato-cs-summit-f641534411e2)
 - [Michael Kitas](https://www.youtube.com/watch?v=txsdyYkvj0Y)
