@@ -127,7 +127,8 @@ e com o KAST de bem elevado contribuindo significante bem no rumo da partida.
 
 💡 Próximos Passos
 - [ ] adquirir mais dados durante os campeonatos de 2026 e fazer mais analises sobre os jogadores.
-- [X] Criar um Dashboard interativo usando Streamlit.
+- [ ] dividir os dados de acordo com o lado jogado CT ou TR.
+- [ ] informar o placar e adversario.
 - [ ] baseado na extração via WebScraping, realizar a extração de dados dos campeonatos de 2025 e realizar predições para 2026.
 
  📖 Referências:
